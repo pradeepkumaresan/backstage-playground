@@ -8,3 +8,9 @@ To start the app, run:
 yarn install
 yarn dev
 ```
+to create a new app
+npx @backstage/create-app@latest
+
+to create a new plugin
+yarn new --select plugin
+

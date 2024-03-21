@@ -31,10 +31,10 @@ backend:
  # config options: https://node-postgres.com/apis/client
     client: pg
     connection:
-      host: localhost
-      port: 5433
-      user: postgres
-      password: secret
+      host: ${POSTGRES_HOST}
+      port: ${POSTGRES_PORT}
+      user: ${POSTGRES_USER}
+      password: ${POSTGRES_PASSWORD}
       # https://node-postgres.com/features/ssl
       # ssl:
       #   host is only needed if the connection name differs from the certificate name.
