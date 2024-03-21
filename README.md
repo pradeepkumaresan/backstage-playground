@@ -9,8 +9,13 @@ yarn install
 yarn dev
 ```
 to create a new app
+
+```sh
 npx @backstage/create-app@latest
+```
 
 to create a new plugin
-yarn new --select plugin
 
+```sh
+yarn new --select plugin
+```
